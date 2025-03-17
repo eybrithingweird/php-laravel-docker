@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-hover:hover li a {
+	--tw-bg-opacity: 1;
+	background-color: rgb(147 29 35 / var(--tw-bg-opacity));
+	color: #ffff;
+}
+
+input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus {
+    outline: 0px;
+    outline-offset: 0px;
+}
+
+/* input[type=text] {
+	box-sizing: border-box !important;
+} */
+
+input[type=text]:focus {
+	border: 1px solid #3c8dbc !important;
+}
+
+/* .hover\:text-iit-yellow:hover {
+	--tw-text-opacity: 1;
+	color: rgb(247 216 83 / var(--tw-text-opacity));
+} */
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	border: 1px solid #dbd8d0 !important;
+	/* .table>tfoot>tr>td, .table>tfoot>tr>th, */
+	display: table-cell;
+}
+
+/* .has-table {
+	display: table !important;
+} */
+
+table {
+	table-layout: fixed !important;
+	width: 100% !important;
+}
+/* 
+@layer base {
+  :root {
+		--radius: 0.5rem;
+	}
+} */
+/* @layer base {
+  :root {
+		--radius: 0.5rem;
+	}
+} */
+
+.react-datepicker {
+	font-size: 1.3rem !important;
+  }
+  
+.react-datepicker__current-month {
+	font-size: 1.5rem !important;
+}
+
+.react-datepicker__header {
+	padding-top: 6px !important;
+}
+
+.react-datepicker__navigation {
+	top: 0px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+	margin: 0.5rem !important;
+}

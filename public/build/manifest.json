@@ -1,0 +1,84 @@
+{
+  "_ComboboxMain-C4nOrFEA.js": {
+    "file": "assets/ComboboxMain-C4nOrFEA.js",
+    "name": "ComboboxMain",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DLpcm0V-.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/Dashboard.jsx",
+      "resources/js/pages/Incoming.jsx",
+      "resources/js/pages/Outgoing.jsx",
+      "resources/js/pages/Mysulat.jsx",
+      "resources/js/pages/Create.jsx",
+      "resources/js/pages/Admin.jsx"
+    ]
+  },
+  "resources/js/pages/Admin.jsx": {
+    "file": "assets/Admin-DT1NRKLZ.js",
+    "name": "Admin",
+    "src": "resources/js/pages/Admin.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_ComboboxMain-C4nOrFEA.js"
+    ]
+  },
+  "resources/js/pages/Create.jsx": {
+    "file": "assets/Create-DrwWwAaK.js",
+    "name": "Create",
+    "src": "resources/js/pages/Create.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_ComboboxMain-C4nOrFEA.js"
+    ]
+  },
+  "resources/js/pages/Dashboard.jsx": {
+    "file": "assets/Dashboard-Dn0wsTKw.js",
+    "name": "Dashboard",
+    "src": "resources/js/pages/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Incoming.jsx": {
+    "file": "assets/Incoming-hjVbYhuB.js",
+    "name": "Incoming",
+    "src": "resources/js/pages/Incoming.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Mysulat.jsx": {
+    "file": "assets/Mysulat-DcOlqw-o.js",
+    "name": "Mysulat",
+    "src": "resources/js/pages/Mysulat.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Outgoing.jsx": {
+    "file": "assets/Outgoing-CP4s7jLl.js",
+    "name": "Outgoing",
+    "src": "resources/js/pages/Outgoing.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-DrKqg2nF.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}
